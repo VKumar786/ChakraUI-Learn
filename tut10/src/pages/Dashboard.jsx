@@ -12,6 +12,7 @@ import {
   HStack,
   Button,
   Divider,
+  Avatar
 } from "@chakra-ui/react";
 import { EditIcon, ViewIcon } from "@chakra-ui/icons";
 
@@ -42,7 +43,7 @@ const Dashboard = () => {
               <CardHeader>
                 <Flex gap={5}>
                   <Box w={"50px"} h={"50px"}>
-                    <Text>Av</Text>
+                    <Avatar src={item.img} />
                   </Box>
                   <Box>
                     <Heading as={"h3"} size={"sm"}>
